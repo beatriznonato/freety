@@ -1,0 +1,48 @@
+*{margin: 0; padding: 0;};
+
+body{
+    background: url("../Freety/img/home1.png");
+    font-family: 'Krub', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu ul li {
+    display:inline;
+    list-style-type: none;
+ 
+    }
+    
+.menu ul li a {
+    color: white;
+    padding: 2px 10px;
+    float: right;
+    }
+    
+.menu ul li a:hover {
+    border-bottom: 3px solid rgb(0, 137, 235);
+    }
+
+.menu img{
+    max-width: 250px;
+    max-height: 250px;
+}
+  
+
+#home1 h1, p{
+    color:rgb(6, 20, 63);
+    
+}
+
+.container img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.apps img{
+    max-width: 100px;
+    max-height: 100px;
+}
