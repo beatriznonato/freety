@@ -34,7 +34,6 @@ nav a{
 
 nav a:hover{
     border-bottom: 2px solid white;
-    
 }
 
 .home1{
@@ -80,34 +79,105 @@ nav a:hover{
     width: 220px;
     position: absolute;
     margin-left: 50px;
-    }
-
-#googleplay{
-    width: 150px;
-    margin-left: 22%;
-}
-
-#appstore{
-    width: 150px;
-    margin-left: 34%;
 }
 
 .home2{
     background: url('img/home2.png');
-    background-size: 100%;
-    height: 500px;
-    margin-top: 0;
-    display: inline-flex;
-    align-items: center;
+    background-size: cover;
+    height: auto;
+    padding: 100px 0px 100px 0px;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    justify-items: center;
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+    grid-area: 0px;
 }
 
+.home2 h3 p{
+    text-align: center;
+    font-size: 12pt;
+}
+
+.endereco{
+    background: url('img/insira.png');
+    background-repeat: no-repeat;
+    background-size: 207px 270px;
+    width: 207px;
+    height: 270px;
+    grid-column-start: 1; 
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+}
+
+.tempo{
+    background: url('img/saiba.png');
+    background-repeat: no-repeat;
+    background-size: 207px 270px;
+    width: 207px;
+    height: 270px;
+    grid-column-start: 2; 
+    grid-column-end: 2;
+    grid-row-start: 1;   
+    grid-row-end: 1;
+}
+
+.local{
+    background: url('img/localizamos.png');
+    background-repeat: no-repeat;
+    background-size: 207px 270px;
+    width: 207px;
+    height: 270px;
+    grid-column-start: 3; 
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.pedido{
+    background: url('img/pedido.png');
+    background-repeat: no-repeat;
+    background-size: 207px 270px;
+    width: 207px;
+    height: 270px;
+    grid-column-start: 1; 
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.acompanhamento{
+    background: url('img/acompanhe.png');
+    background-repeat: no-repeat;
+    background-size: 207px 270px;
+    width: 207px;
+    height: 270px;
+    grid-column-start: 2; 
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.pronto{
+    background: url('img/pronto.png');
+    background-repeat: no-repeat;
+    background-size: 207px 270px;
+    width: 207px;
+    height: 270px;
+    grid-column-start: 3; 
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+ 
 .home3{
-    background: url('img/home2.png');
+    background: url('');
     background-size: 100%;
     height: 500px;
-    margin-top: 0;
-    display: inline-flex;
-    align-items: center;
+    padding-top: 400px;
 }
 
 .home3 button{
@@ -156,4 +226,14 @@ nav a:hover{
 
 #face{
     width: 20px;
+}
+
+#googleplay{
+    width: 150px;
+    margin-left: 22%;
+}
+
+#appstore{
+    width: 150px;
+    margin-left: 34%;
 }
