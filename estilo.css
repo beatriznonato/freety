@@ -1,92 +1,112 @@
-* {
-    margin:0;
-    padding:0;
-}
-
 body{
     font-family: 'Krub', sans-serif;
-    margin: auto;
+    margin:0;
 }
 
 header{
-    margin-top: 20px;
-    position: fixed;
+    margin-top: 40px;
     width: 100%;
-}
-
-header img{
-    width: 220px;
-    margin-left: 5%;
+    position: fixed;
 }
 
 nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
-nav a{
-    color: white;
-    font-weight: 800;
-    display: inline;
-    text-decoration: none;
+#logoFreety img{
+    width: 210px;
+    height: 60px;
 }
 
-nav a:hover{
+.linkSuperior a{
+    color: white;
+    font-weight: 800;
+    display: inline-flex;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.linkSuperior a:hover{
     border-bottom: 2px solid white;
+}
+
+.acesso a{
+    color: white;
+    font-weight: 800;
+    display: inline-flex;
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin-left: 10px;
 }
 
 .home1{
     background: url('img/home1.png');    
     background-size: 100%;
-    height: 340px;
-    padding-top: 400px;
+    height: 400px;
+    padding-top: 350px;
+    display: flex;
+    display: column;
 }
-
-.home1 p{
-    margin-left: 100px;
-    margin-top: 20px;
-    color: #000069;
-    font-size: 25px;
-}   
 
 .home1 h1{
     margin-left: 100px;
     color: #000069;
     text-transform: uppercase;
     font-size: 35px;
+    font-weight: bolder;
 }   
 
+.home1 p{
+    margin-left: 100px;
+    margin-top: 20px;
+    color: #000069;
+    font-size: 25px;
+} 
+
 .home1 button{
-    margin-top: 25px;
+    margin-left: 100px;
     background: transparent;
     border: 2px solid #000069;
     padding: 5px 10px;
     text-transform: uppercase;
     font-weight: 800;
     border-radius: 5px;
-    margin-left: 100px;
     color: #000069;
     font-size: 15px;
-  }
+}
 
 .home1 button:hover{
     background-color: #000069; 
-    color: white; 
+    color: white;
 }
 
-.home1 img{
-    width: 220px;
-    position: absolute;
-    margin-left: 50px;
+.iconesHome1{
+    display: column;
+}
+
+.logoMoto img{
+    width: 260px;
+    margin: 70px 0px 0px 20px;
+}
+
+.baixarApp{
+    display: inline-flex;
+}
+
+.baixarApp img{
+    width: 170px;
+    height: 40px;
+    margin: 40px 0px 0px 20px;
 }
 
 .home2{
     background: url('img/home2.png');
-    background-size: cover;
+    background-size: 100%;
     height: auto;
     padding: 100px 0px 100px 0px;
-    background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;  
     justify-items: center;
@@ -96,8 +116,8 @@ nav a:hover{
 }
 
 .home2 h3 p{
-    text-align: center;
-    font-size: 12pt;
+    /* text-align: center; */
+    /* font-size: 12pt; */
 }
 
 .endereco{
@@ -110,11 +130,10 @@ nav a:hover{
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;
-
 }
 
 .tempo{
-    background: url('img/saiba.png');
+    background: url('img/tempo.png');
     background-repeat: no-repeat;
     background-size: 207px 270px;
     width: 207px;
@@ -126,7 +145,7 @@ nav a:hover{
 }
 
 .local{
-    background: url('img/localizamos.png');
+    background: url('img/local.png');
     background-repeat: no-repeat;
     background-size: 207px 270px;
     width: 207px;
@@ -149,7 +168,7 @@ nav a:hover{
     grid-row-end: 2;
 }
 
-.acompanhamento{
+.acompanhe{
     background: url('img/acompanhe.png');
     background-repeat: no-repeat;
     background-size: 207px 270px;
@@ -207,7 +226,7 @@ nav a:hover{
 .footer{
     background-color: dimgray;
     width: 100%;
-    height: 180px;
+    height: 300px;
     display: flex;
     display: column;
     justify-content: space-evenly;
@@ -224,16 +243,27 @@ nav a:hover{
     width: 30px;
 }
 
-#face{
-    width: 20px;
+/*
+#android{
+    width: 10%;
+    height: 10%;
 }
 
-#googleplay{
-    width: 150px;
-    margin-left: 22%;
+#ios{
+    width: 10%;
+    height: 10%;
 }
 
-#appstore{
-    width: 150px;
-    margin-left: 34%;
+.appstore a{
+    display: inline-flex;
 }
+
+.social-media img{
+    width: 10%;
+    height: 10%;
+}
+
+.appstore img{
+    width: 10%;
+    height: 10%;
+}*/
