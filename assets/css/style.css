@@ -1,0 +1,339 @@
+* {
+    font-family: 'Krub', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #ddd;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 30px;
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center
+}
+
+nav a, .access a {
+    text-transform: uppercase;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a {
+    margin: 20px;
+    padding: 5px;
+}
+
+nav > a:hover{
+    border-bottom: 2px solid #FFF;
+}
+
+nav > .access {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > .access > a {
+    padding: 10px;
+    border: 2px solid #FFF;
+
+}
+
+.logo > a > img {
+    width: 210px;
+}
+
+/* BANNER */
+.banner {
+    background-image: url("../img/bg1.png");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+#banner2 {
+    background-image: url("../img/bg4.png");
+}
+
+#banner2 > h2, #banner2 .banner-left > h2,  #banner2 .banner-left > p,  #banner2 .banner-left > a {
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.banner-container{
+    display: flex;
+    align-items: flex-end;
+}
+
+.banner-left, .banner-right {
+    width: 30%;
+}
+
+.banner-left { 
+    margin-left: 50px;
+}
+
+.banner-left > h2 {
+    color: #000069;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.banner-left > p {
+    color: #000069;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.banner-left > a {
+    text-decoration: none;
+    color: #000069;
+    text-transform: uppercase;
+    border: 2px solid #000069;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.banner-left > a:hover {
+    background: #000069;
+    color: #FFF;
+}
+
+.banner-right > img {
+    width: 260px;
+}
+
+.banner-right > div > a > img {
+    margin-top: 30px;
+    width: 45%;
+}
+
+/* HOW TO WORKS */
+#howToWorks {
+    background-image: url("../img/bg2.png");
+    background-size: cover; 
+    text-align: center;
+    padding: 80px;
+    padding-top: 120px;
+}
+
+#howToWorks > h2 {
+    text-transform: uppercase;
+    margin: 0;
+    color: #FFF;
+    font-size: 40px;
+}
+
+#howToWorks > .panel-container > .panel {
+    width: 25%;
+    margin: 20px;
+}
+
+/* ADVANTAGES */
+#advantages {
+    background-image: url("../img/bg3.png");
+    background-size: cover; 
+    text-align: center;
+    padding: 80px;
+    padding-top: 120px;
+}
+
+#advantages h2 { 
+    text-transform: uppercase;
+    margin: 0;
+    color: #FFF;
+    font-size: 40px;
+}
+
+#advantages > .panel-container > .panel {
+    width: 25%;
+    margin: 20px;
+}
+
+#advantages > .panel-container > .panel > .panel-inner > h3 {
+    color: #000069;
+    text-transform: uppercase;
+
+}
+
+/* APP DEMO */
+#app-demo {
+    background-image: url("../img/bg2.png");
+    background-size: cover;
+    padding: 80px;
+    padding-top: 200px;
+    position: relative;
+}
+
+#app-demo > div {
+    width: 40%;
+}
+
+#app-demo > div > h2 {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+#app-demo > div > h2 > span {
+    border-bottom: 5px solid #FFF;
+}
+
+#app-demo > div > p {
+    color: #fff;
+    font-size: 25px;
+}
+
+#app-demo > img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* FOOTER */
+footer {
+    background-color: #696969;
+    display: flex;
+    color: #FFF;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li {
+    margin: 10px 0;
+}
+
+footer div {
+    max-width: 15%;
+}
+
+footer img {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+footer div:nth-child(5){
+    text-align: center;
+}
+
+footer div:nth-child(5) img {
+    width: 25%;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+/* SIGNUP */
+.singup {
+    background-image: url("../img/bg2.png");
+    background-size: cover;
+    opacity: 0.6;
+    padding: 120px;
+    padding-top: 190px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.singup > div {
+    width: 40%;
+    text-align: center
+}
+
+.singup > div > h2, .singup > div > h3{
+    margin: 0;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.singup > div > h2 {
+    font-size: 35px;
+}
+
+.singup > div > h3 {
+    font-size: 25px;
+}
+
+.singup > div > form {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.singup > div > form > input {
+    color: #000;
+    padding: 5px;
+    margin: 10px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none
+}
+
+.singup > div > form > button {
+    color: #000;
+    padding: 5px;
+    margin: 10px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none
+}
+
+/* COMPONENTS */
+.row {
+    height: 100%;
+    width: 100%;
+}
+
+.panel-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.panel-container > .panel > .panel-inner {
+    background-color: #FFF;
+    height: 100%;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.panel-container > .panel > .panel-inner > img {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    flex-grow: 1;
+}
