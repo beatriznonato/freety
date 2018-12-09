@@ -89,7 +89,7 @@ header > .access > a {
     width: 30%;
 }
 
-.banner-left { 
+.banner-left {
     margin-left: 50px;
 }
 
@@ -133,7 +133,7 @@ header > .access > a {
 /* HOW TO WORKS */
 #howToWorks {
     background-image: url("../img/bg2.png");
-    background-size: cover; 
+    background-size: cover;
     text-align: center;
     padding: 80px;
     padding-top: 120px;
@@ -154,13 +154,13 @@ header > .access > a {
 /* ADVANTAGES */
 #advantages {
     background-image: url("../img/bg3.png");
-    background-size: cover; 
+    background-size: cover;
     text-align: center;
     padding: 80px;
     padding-top: 120px;
 }
 
-#advantages h2 { 
+#advantages h2 {
     text-transform: uppercase;
     margin: 0;
     color: #FFF;
@@ -227,7 +227,7 @@ footer ul {
     list-style: none;
 }
 
-footer ul li {
+footer ul li  {
     margin: 10px 0;
 }
 
@@ -258,7 +258,6 @@ footer div:nth-child(5) img {
     opacity: 0.6;
     padding: 120px;
     padding-top: 190px;
-    
     display: flex;
     align-items: center;
     justify-content: center;
