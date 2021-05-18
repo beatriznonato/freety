@@ -19,3 +19,6 @@ Foi desenvolvida a primeira versão da aplicação web para que os restaurantes 
 ![ba428cb4-bb25-4b10-b598-489480edefde](https://user-images.githubusercontent.com/35739995/118590195-5716c280-b778-11eb-9b4a-fd975561e260.jpg)
 
 Da esquerda pra direita [Wagner Saito](https://github.com/wagnersaito), [Gerson Felix](https://github.com/gersonfelix), [Gabriela Oliveira](https://github.com/gabrielacoliveira), [Beatriz Nonato](https://github.com/beatriznonato) e [Lucas Polizeli](https://github.com/lucaspolizeli).
+
+#### Curiosidade ⭐
+Projeto desenvolvido em 3 semanas para a conclusão do Bootcamp da Estação Hack From Facebook.
